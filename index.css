@@ -1,0 +1,95 @@
+.container {
+	margin: 30px auto;
+	text-align: center;
+}
+.container .level button {
+	background-color: #e5c1cd;
+	outline-style: none;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
+.container .level button.select {
+	background-color: #b6b4c2;
+}
+.container .mine table {
+	border-spacing: 1px;
+	margin: 10px auto;
+}
+.container .mine table td {
+	width: 18px;
+	height: 18px;
+	padding: 0;
+	background-color: #bfb8da;
+	border: 2px solid;
+	border-color: #ebd7d4 #a56781 #a56781 #ebd7d4;
+	text-align: center;
+	line-height: 16px;
+	font-weight: bold;
+}
+.container .mine table td.select,
+.container .mine table td.mine {
+	background-color: #bfb8da;
+	border: 1px solid #ebd7d4;
+}
+.container .mine table td.mine {
+	background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607670680257&di=7e62117ff1917bb6d54fbcb02908b34d&imgtype=0&src=http%3A%2F%2Faliyunzixunbucket.oss-cn-beijing.aliyuncs.com%2Fjpg%2F7a7c9ba89928c2ffb7521eceb9288669.jpg%3Fx-oss-process%3Dimage%2Fresize%2Cp_100%2Fauto-orient%2C1%2Fquality%2Cq_90%2Fformat%2Cjpg%2Fwatermark%2Cimage_eXVuY2VzaGk%3D%2Ct_100");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container .mine table td.flag {
+	background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607670611324&di=1688fcd7cc334d86c054b939bd976219&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F16%2F09%2F07%2F1757cfe04092b2f.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container .last {
+	color: #d87f81;
+}
+.container {
+	margin: 30px auto;
+	text-align: center;
+}
+.container .level button {
+	background-color: #e5c1cd;
+	outline-style: none;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
+.container .level button.select {
+	background-color: #b6b4c2;
+}
+.container .mine table {
+	border-spacing: 1px;
+	margin: 10px auto;
+}
+.container .mine table td {
+	width: 18px;
+	height: 18px;
+	padding: 0;
+	background-color: #bfb8da;
+	border: 2px solid;
+	border-color: #ebd7d4 #a56781 #a56781 #ebd7d4;
+	text-align: center;
+	line-height: 16px;
+	font-weight: bold;
+}
+.container .mine table td.select,
+.container .mine table td.mine {
+	background-color: #bfb8da;
+	border: 1px solid #ebd7d4;
+}
+.container .mine table td.mine {
+	background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607670680257&di=7e62117ff1917bb6d54fbcb02908b34d&imgtype=0&src=http%3A%2F%2Faliyunzixunbucket.oss-cn-beijing.aliyuncs.com%2Fjpg%2F7a7c9ba89928c2ffb7521eceb9288669.jpg%3Fx-oss-process%3Dimage%2Fresize%2Cp_100%2Fauto-orient%2C1%2Fquality%2Cq_90%2Fformat%2Cjpg%2Fwatermark%2Cimage_eXVuY2VzaGk%3D%2Ct_100");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container .mine table td.flag {
+	background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1607670611324&di=1688fcd7cc334d86c054b939bd976219&imgtype=0&src=http%3A%2F%2Fku.90sjimg.com%2Felement_origin_min_pic%2F16%2F09%2F07%2F1757cfe04092b2f.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container .last {
+	color: #d87f81;
+}
+
