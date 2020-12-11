@@ -1,15 +1,22 @@
 function MineSweeper(tr, td, mineNum) {
 	this.tr = tr; //行
 	this.td = td; //列
-	this.mineNum = mineNum; 
-	this.area = []; 
-	this.doms = []; 
-	this.lastMineNum = mineNum; 
+	this.mineNum = mineNum; //雷数
+	this.area = []; //存取每个格子信息
+	this.doms = []; //存储格子DOM,用来动态创建DOM
+	this.lastMineNum = mineNum; //剩余雷数
+	this.allRight=false;
 	this.parent = document.querySelector('.mine');
 	this.num = document.querySelector('.last .mineNum');
 }
 //初始化
 MineSweeper.prototype.init = function() {
+	var time = document.getElementById('time'); //计时器
+	var timer = setInterval(function () {
+    let seconds = (parseFloat(time.innerHTML) + 0.1).toFixed(1); //保留一位小数
+    time.innerHTML = seconds;
+	},
+    100) //定时器 100ms执行一次
 	var rn = this.randomNum(); //获得type: mine 的索引
 	var n = 0; //记录格子索引
 	for(var i = 0; i < this.tr; i++) {
@@ -64,7 +71,8 @@ MineSweeper.prototype.create = function() {
 						// console.log('踩到雷了！')
 						this.className = 'mine';
 						_this.gameOver(this);
-						
+						alert('啧啧啧。。。行不行啊你。');
+						clearInterval(time);
 					} else {
 						// console.log('is number')
 						if(!curArea.value) {  //踩到0，出现一大片
@@ -104,7 +112,7 @@ MineSweeper.prototype.create = function() {
 						_this.num.innerHTML = --_this.lastMineNum;
 					} else {
 						_this.num.innerHTML = ++_this.lastMineNum;
-					}
+					} 
 				}
 			}
 		}
